@@ -1,0 +1,19 @@
+<div class="px-12 py-6">
+
+    <header class="border-b pb-2 flex justify-between">
+        <h1 class="text-2xl font-medium">Projects</h1>
+        <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Add Project</button>
+    </header>
+
+    <!-- Project List -->
+
+    <section class="flex flex-wrap">
+        <div class="border rounded-xl max-w-[300px] p-6 mt-6 mr-2" *ngFor="let project of projects">
+            <p><span class="font-medium">Name : </span> {{project?.projectName}}</p>
+            <p><span class="font-medium">Type : </span> {{project?.projectType}}</p>
+            <p><span class="font-medium">Description : </span> {{project?.projectDescription}}</p>
+        </div>
+    </section>
+
+
+</div>
