@@ -1,6 +1,6 @@
 # Task-Unity
 
-Tak-Unity is a simple web application that allows users to create projects and manage tasks within those projects. It's designed to streamline task management and team collaboration.
+Task-Unity is a simple web application that allows users to create projects and manage tasks within those projects. It's designed to streamline task management and team collaboration.
 
 Status : Ongoing
 
